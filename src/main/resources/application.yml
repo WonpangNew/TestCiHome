@@ -1,0 +1,38 @@
+spring.profiles.active: local
+
+spring:
+    profiles: local
+
+    http:
+         multipart:
+              max-file-size: 30MB
+              max-request-size: 30MB
+
+#ftp主机ip
+ftp.host: 139.129.35.200
+
+#ftp服务端口
+ftp.port: 21
+
+#ftp服务登录密码
+ftp.password: nicaicai
+
+#ftp登录用户名
+ftp.userName: macross-ftp
+
+---
+
+spring:
+    profiles: online
+
+#ftp主机ip
+ftp.host: 139.129.35.200
+
+#ftp服务端口
+ftp.port: 21
+
+#ftp服务登录密码
+ftp.password: nicaicai
+
+#ftp登录用户名
+ftp.userName: macross-ftp
